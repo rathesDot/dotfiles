@@ -43,12 +43,6 @@ mkdir $HOME/Sites
 # Symlink the Mackup config file to the home directory
 ln -s ./.mackup.cfg $HOME/.mackup.cfg
 
-# Add VS Code to path
-cat << EOF >> ~/.bash_profile
-# Add Visual Studio Code (code)
-export PATH="\$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
-EOF
-
 # Install all code extensions
 cat vscode-extensions.txt | while read i; do
    code --install-extension $i

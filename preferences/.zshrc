@@ -1,5 +1,5 @@
 # If you come from bash you might have to change your $PATH.
-export PATH=$HOME/bin:/usr/local/bin:~/.composer/vendor/bin:$PATH
+export PATH="/Applications/Visual Studio Code.app/Contents/Resources/app/bin":$HOME/bin:/usr/local/bin:~/.composer/vendor/bin:$PATH
 
 # Path to your dotfiles installation.
 export DOTFILES=$HOME/.dotfiles
