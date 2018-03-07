@@ -30,7 +30,6 @@ brew 'mas'
 
 # Development
 brew 'php72'
-brew 'php72-intl'
 brew 'php72-imagick'
 brew 'mysql'
 
