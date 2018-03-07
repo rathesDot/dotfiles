@@ -49,7 +49,6 @@ cask 'virtualbox'
 cask 'virtualbox-extension-pack'
 cask 'vlc'
 cask 'visual-studio-code'
-cask 'spark'
 
 # Quicklook
 cask 'qlcolorcode'
@@ -63,3 +62,6 @@ cask 'font-source-code-pro-for-powerline'
 cask 'font-source-code-pro'
 cask 'font-source-sans-pro'
 cask 'font-source-serif-pro'
+
+# Install Mac App Store apps
+mas 'Spark', id: 1176895641
