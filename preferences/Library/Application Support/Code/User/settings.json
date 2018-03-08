@@ -11,4 +11,5 @@
     "files.trimTrailingWhitespace": true,
     "extensions.ignoreRecommendations": true,
     "workbench.panel.defaultLocation": "right",
+    "explorer.confirmDelete": false,
 }
