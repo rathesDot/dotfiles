@@ -27,6 +27,7 @@ brew 'git'
 brew 'node'
 brew 'wget'
 brew 'mas'
+brew 'mackup'
 
 # Development
 brew 'php72'
