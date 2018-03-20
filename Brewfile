@@ -65,3 +65,4 @@ cask 'font-source-serif-pro'
 
 # Install Mac App Store apps
 mas 'Spark', id: 1176895641
+mas 'Bear', id: 1091189122
