@@ -12,4 +12,7 @@
     "extensions.ignoreRecommendations": true,
     "workbench.panel.defaultLocation": "right",
     "explorer.confirmDelete": false,
+    "editor.formatOnPaste": false,
+    "editor.formatOnSave": false,
+    "editor.formatOnType": false,
 }
