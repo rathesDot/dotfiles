@@ -25,6 +25,7 @@ brew 'grep'
 # Install Binaries
 brew 'git'
 brew 'node'
+brew 'watchman'
 brew 'wget'
 brew 'mas'
 brew 'mackup'
