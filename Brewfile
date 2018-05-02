@@ -4,7 +4,6 @@ tap 'caskroom/eid'
 tap 'caskroom/fonts'
 tap 'caskroom/versions'
 tap 'homebrew/bundle'
-tap 'homebrew/php'
 
 # Install ZSH
 brew 'zsh'
@@ -32,7 +31,6 @@ brew 'mackup'
 
 # Development
 brew 'php72'
-brew 'php72-imagick'
 brew 'mysql'
 
 # Apps
