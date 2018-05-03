@@ -52,7 +52,7 @@ npm install --global exp
 mkdir $HOME/Sites
 
 # Symlink the Mackup config file to the home directory
-ln -s ./.mackup.cfg $HOME/.mackup.cfg
+ln -s ./.dotfiles/mackup.cfg $HOME/.mackup.cfg
 
 # Install all code extensions
 cat vscode-extensions.txt | while read i; do
