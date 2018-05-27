@@ -33,6 +33,9 @@ cd $HOME/fonts
 rm -rf $HOME/fonts
 cd $HOME/.dotfiles
 
+# copy global gitignore files
+cp .gitignore $HOME/.gitignore
+
 # Install Composer
 curl -sS https://getcomposer.org/installer | php
 mv composer.phar /usr/local/bin/composer

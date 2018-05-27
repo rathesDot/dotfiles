@@ -3,3 +3,5 @@
 	email = sachchi@rathes.de
 [push]
     default = current
+[core]
+	excludesfile = ~/.gitignore
