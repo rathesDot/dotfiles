@@ -48,6 +48,7 @@ cask 'virtualbox'
 cask 'virtualbox-extension-pack'
 cask 'vlc'
 cask 'visual-studio-code'
+cask 'rocket'
 
 # Quicklook
 cask 'qlcolorcode'
