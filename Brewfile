@@ -35,7 +35,6 @@ brew 'mysql'
 
 # Apps
 cask 'firefox'
-cask 'google-backup-and-sync'
 cask 'google-chrome'
 cask 'insomnia'
 cask 'iterm2'
