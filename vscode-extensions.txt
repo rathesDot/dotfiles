@@ -1,4 +1,3 @@
-CoenraadS.bracket-pair-colorizer
 EditorConfig.EditorConfig
 Zignd.html-css-class-completion
 alefragnani.Bookmarks
@@ -6,6 +5,7 @@ alexdima.copy-relative-path
 bmewburn.vscode-intelephense-client
 calebporzio.better-phpunit
 christian-kohler.npm-intellisense
+CoenraadS.bracket-pair-colorizer
 esbenp.prettier-vscode
 formulahendry.auto-close-tag
 junstyle.php-cs-fixer
@@ -15,6 +15,7 @@ octref.vetur
 onecentlin.laravel-blade
 patbenatar.advanced-new-file
 ricard.postcss
+sdras.night-owl
 sdras.vue-vscode-extensionpack
 sdras.vue-vscode-snippets
 tombonnike.vscode-status-bar-format-toggle

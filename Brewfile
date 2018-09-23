@@ -30,25 +30,22 @@ brew 'mas'
 brew 'mackup'
 
 # Development
-brew 'php72'
+brew 'php'
 brew 'mysql'
 
 # Apps
+cask 'docker'
 cask 'firefox'
-cask 'google-backup-and-sync'
 cask 'google-chrome'
 cask 'insomnia'
 cask 'iterm2'
 cask 'phpstorm'
+cask 'rocket'
 cask 'sequel-pro'
 cask 'slack'
 cask 'spotify'
-cask 'vagrant'
-cask 'virtualbox'
-cask 'virtualbox-extension-pack'
 cask 'vlc'
 cask 'visual-studio-code'
-cask 'rocket'
 
 # Quicklook
 cask 'qlcolorcode'
@@ -64,5 +61,5 @@ cask 'font-source-sans-pro'
 cask 'font-source-serif-pro'
 
 # Install Mac App Store apps
-mas 'Spark', id: 1176895641
 mas 'Bear', id: 1091189122
+mas 'Spark', id: 1176895641
