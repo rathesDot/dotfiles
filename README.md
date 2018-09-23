@@ -1,5 +1,3 @@
-*WORK IN PROGRESS: This repository is still in development. Do not use it in production yet*
-
 My Dotfiles for my MacOS environments
 ===
 
