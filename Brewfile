@@ -28,6 +28,7 @@ brew 'watchman'
 brew 'wget'
 brew 'mas'
 brew 'mackup'
+brew 'nvm'
 
 # Development
 brew 'php'
