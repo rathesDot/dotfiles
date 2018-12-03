@@ -1,6 +1,6 @@
 {
     "editor.lineHeight": 20,
-    "window.zoomLevel": 0,
+    "window.zoomLevel": 2,
     "editor.rulers": [
         120
     ],
@@ -15,4 +15,9 @@
     "editor.formatOnPaste": false,
     "editor.formatOnSave": false,
     "editor.formatOnType": false,
+    "workbench.colorTheme": "Solarized Dark",
+    "python.pythonPath": "/usr/local/bin/python3",
+    "python.linting.flake8Enabled": true,
+    "python.formatting.provider": "yapf",
+    "python.linting.pylintEnabled": false,
 }

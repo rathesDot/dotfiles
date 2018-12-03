@@ -14,3 +14,7 @@ alias sites="cd $HOME/Sites"
 
 # Laravel
 alias a="php artisan"
+
+# Python
+alias python='python3'
+alias pip='pip3'
