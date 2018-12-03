@@ -33,6 +33,7 @@ brew 'nvm'
 # Development
 brew 'php'
 brew 'mysql'
+brew 'python
 
 # Apps
 cask 'docker'
