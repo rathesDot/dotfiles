@@ -51,6 +51,7 @@ $HOME/.composer/vendor/bin/valet install
 
 # Install global NPM packages
 npm install --global yarn
+npm install --global gatsby-cli
 
 # Install python packages
 pip3 install flake8
