@@ -52,8 +52,6 @@ cask 'visual-studio-code'
 # Fonts
 cask 'font-source-code-pro-for-powerline'
 cask 'font-source-code-pro'
-cask 'font-source-sans-pro'
-cask 'font-source-serif-pro'
 
 # Install Mac App Store apps
 mas 'Bear', id: 1091189122
