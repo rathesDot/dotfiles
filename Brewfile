@@ -44,19 +44,10 @@ cask 'google-chrome'
 cask 'insomnia'
 cask 'iterm2'
 cask 'phpstorm'
-cask 'rocket'
 cask 'sequel-pro'
 cask 'slack'
 cask 'spotify'
-cask 'vlc'
 cask 'visual-studio-code'
-
-# Quicklook
-cask 'qlcolorcode'
-cask 'qlmarkdown'
-cask 'quicklook-json'
-cask 'quicklook-csv'
-cask 'qlstephen'
 
 # Fonts
 cask 'font-source-code-pro-for-powerline'
