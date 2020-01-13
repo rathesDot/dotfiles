@@ -29,6 +29,7 @@ brew 'wget'
 brew 'mas'
 brew 'mackup'
 brew 'nvm'
+brew 'yarn'
 
 # Development
 brew 'php'
