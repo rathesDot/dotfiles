@@ -63,10 +63,7 @@ mkdir $HOME/Sites
 # Symlink the Mackup config file to the home directory
 ln -s ./.dotfiles/mackup.cfg $HOME/.mackup.cfg
 
-# Install all code extensions
-cat vscode-extensions.txt | while read i; do
-   code --install-extension $i
-done
+source ./install-code-extensions.sh
 
 # Set macOS preferences
 # We will run this last because this will reload the shell
