@@ -4,6 +4,7 @@ CoenraadS.bracket-pair-colorizer
 EditorConfig.EditorConfig
 formulahendry.auto-close-tag
 formulahendry.auto-rename-tag
+Heron.firefox-devtools-theme
 ms-python.python
 octref.vetur
 patbenatar.advanced-new-file
@@ -11,4 +12,3 @@ ricard.postcss
 sdras.vue-vscode-snippets
 xabikos.JavaScriptSnippets
 Zignd.html-css-class-completion
-Heron.firefox-devtools-theme
