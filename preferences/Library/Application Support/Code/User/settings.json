@@ -21,4 +21,5 @@
     "python.formatting.provider": "yapf",
     "python.linting.pylintEnabled": false,
     "breadcrumbs.enabled": false,
+    "editor.fontFamily": "Cascadia Code, Menlo, Monaco, 'Courier New', monospace",
 }
