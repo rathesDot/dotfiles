@@ -6,7 +6,6 @@
     ],
     "explorer.openEditors.visible": 0,
     "editor.minimap.enabled": false,
-    "php-cs-fixer.onsave": true,
     "terminal.integrated.fontFamily": "Meslo LG M for Powerline, Menlo, Monaco, 'Courier New', monospace",
     "files.trimTrailingWhitespace": true,
     "extensions.ignoreRecommendations": true,
