@@ -3,6 +3,7 @@ christian-kohler.npm-intellisense
 CoenraadS.bracket-pair-colorizer
 EditorConfig.EditorConfig
 formulahendry.auto-close-tag
+formulahendry.auto-rename-tag
 ms-python.python
 octref.vetur
 patbenatar.advanced-new-file
