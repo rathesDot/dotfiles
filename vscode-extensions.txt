@@ -28,3 +28,4 @@ whizkydee.material-palenight-theme
 wmaurer.vscode-jumpy
 xabikos.JavaScriptSnippets
 Zignd.html-css-class-completion
+Heron.firefox-devtools-theme
