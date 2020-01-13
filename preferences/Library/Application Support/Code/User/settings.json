@@ -15,7 +15,7 @@
     "editor.formatOnPaste": true,
     "editor.formatOnSave": true,
     "editor.formatOnType": true,
-    "workbench.colorTheme": "Github",
+    "workbench.colorTheme": "Firefox Light",
     "python.pythonPath": "/usr/local/bin/python3",
     "python.linting.flake8Enabled": true,
     "python.formatting.provider": "yapf",
