@@ -11,5 +11,6 @@ octref.vetur
 patbenatar.advanced-new-file
 ricard.postcss
 sdras.vue-vscode-snippets
+tombonnike.vscode-status-bar-format-toggle
 xabikos.JavaScriptSnippets
 Zignd.html-css-class-completion
