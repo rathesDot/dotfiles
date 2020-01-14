@@ -5,11 +5,11 @@ EditorConfig.EditorConfig
 formulahendry.auto-close-tag
 formulahendry.auto-rename-tag
 Heron.firefox-devtools-theme
+mhmadhamster.postcss-language
 ms-python.python
 ms-vscode.vscode-typescript-next
 octref.vetur
 patbenatar.advanced-new-file
-ricard.postcss
 sdras.vue-vscode-snippets
 tombonnike.vscode-status-bar-format-toggle
 xabikos.JavaScriptSnippets
