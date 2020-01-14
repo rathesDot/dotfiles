@@ -1,5 +1,4 @@
 {
-    "editor.lineHeight": 20,
     "window.zoomLevel": 2,
     "editor.rulers": [
         120
@@ -21,4 +20,5 @@
     "python.linting.pylintEnabled": false,
     "breadcrumbs.enabled": false,
     "editor.fontFamily": "Cascadia Code, Menlo, Monaco, 'Courier New', monospace",
+    "editor.lineHeight": 24,
 }
