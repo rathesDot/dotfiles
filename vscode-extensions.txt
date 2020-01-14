@@ -2,6 +2,7 @@ alexdima.copy-relative-path
 christian-kohler.npm-intellisense
 CoenraadS.bracket-pair-colorizer
 EditorConfig.EditorConfig
+esbenp.prettier-vscode
 formulahendry.auto-close-tag
 formulahendry.auto-rename-tag
 Heron.firefox-devtools-theme
