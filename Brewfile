@@ -48,7 +48,7 @@ cask 'sequel-pro'
 cask 'slack'
 cask 'spotify'
 cask 'visual-studio-code'
-cask 'microsoft-edge-beta'
+cask 'microsoft-edge'
 
 # Fonts
 cask 'font-source-code-pro-for-powerline'
