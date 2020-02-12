@@ -39,6 +39,7 @@ brew 'python'
 brew 'pipenv'
 
 # Apps
+cask 'docker'
 cask 'firefox'
 cask 'google-chrome'
 cask 'insomnia'
