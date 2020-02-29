@@ -58,5 +58,4 @@ cask 'font-source-code-pro'
 cask 'font-cascadia'
 
 # Install Mac App Store apps
-mas 'Bear', id: 1091189122
 mas 'Spark', id: 1176895641
