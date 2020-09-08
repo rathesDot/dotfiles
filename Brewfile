@@ -51,6 +51,7 @@ cask 'slack'
 cask 'spotify'
 cask 'visual-studio-code'
 cask 'microsoft-edge'
+cask 'hyper'
 
 # Fonts
 cask 'font-source-code-pro-for-powerline'
