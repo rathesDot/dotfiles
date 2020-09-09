@@ -18,3 +18,6 @@ alias a="php artisan"
 # Python
 alias python='python3'
 alias pip='pip3'
+
+# Hussle
+alias hsl='cd $HOME/Sites/hussle'
