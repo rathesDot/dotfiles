@@ -1,9 +1,11 @@
 alexdima.copy-relative-path
+bierner.markdown-preview-github-styles
 christian-kohler.npm-intellisense
 CoenraadS.bracket-pair-colorizer
+dbaeumer.vscode-eslint
+eamodio.gitlens
 EditorConfig.EditorConfig
 esbenp.prettier-vscode
-formulahendry.auto-close-tag
 formulahendry.auto-rename-tag
 Heron.firefox-devtools-theme
 mhmadhamster.postcss-language
@@ -12,6 +14,7 @@ ms-vscode.vscode-typescript-next
 octref.vetur
 patbenatar.advanced-new-file
 sdras.vue-vscode-snippets
+silvenon.mdx
+thenikso.github-plus-theme
 tombonnike.vscode-status-bar-format-toggle
 xabikos.JavaScriptSnippets
-Zignd.html-css-class-completion
