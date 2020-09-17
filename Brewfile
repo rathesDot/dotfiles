@@ -14,7 +14,7 @@ brew 'coreutils'
 # Install GNU `find`, `locate`, `updatedb`, and `xargs`, g-prefixed
 brew 'findutils'
 
-# Install Bash 4
+# Install Bash
 brew 'bash'
 
 # Install more recent versions of some macOS tools
