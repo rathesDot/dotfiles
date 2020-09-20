@@ -50,6 +50,7 @@ cask 'spotify'
 cask 'visual-studio-code'
 cask 'microsoft-edge'
 cask 'hyper'
+cask 'figma'
 
 # Fonts
 cask 'font-source-code-pro-for-powerline'
