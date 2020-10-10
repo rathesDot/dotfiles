@@ -51,6 +51,7 @@ cask 'visual-studio-code'
 cask 'microsoft-edge'
 cask 'hyper'
 cask 'figma'
+case 'tableplus'
 
 # Fonts
 cask 'font-source-code-pro-for-powerline'
