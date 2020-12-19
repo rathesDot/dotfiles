@@ -16,7 +16,7 @@
     "workbench.colorTheme": "GitHub Plus",
     "python.pythonPath": "/usr/local/bin/python3",
     "python.linting.flake8Enabled": true,
-    "python.formatting.provider": "yapf",
+    "python.formatting.provider": "autopep8",
     "python.linting.pylintEnabled": false,
     "breadcrumbs.enabled": false,
     "editor.fontFamily": "Cascadia Code, Menlo, Monaco, 'Courier New', monospace",
@@ -34,4 +34,10 @@
     "[javascript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
+    "workbench.editorAssociations": [
+        {
+            "viewType": "jupyter.notebook.ipynb",
+            "filenamePattern": "*.ipynb"
+        }
+    ],
 }
