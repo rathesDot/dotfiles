@@ -1,5 +1,5 @@
 {
-    "window.zoomLevel": 2,
+    "window.zoomLevel": 1,
     "editor.rulers": [
         120
     ],
@@ -10,10 +10,8 @@
     "extensions.ignoreRecommendations": true,
     "workbench.panel.defaultLocation": "right",
     "explorer.confirmDelete": false,
-    "editor.formatOnPaste": true,
-    "editor.formatOnSave": true,
-    "editor.formatOnType": true,
-    "workbench.colorTheme": "GitHub Plus",
+    "editor.formatOnPaste": false,
+    "editor.formatOnType": false,
     "python.pythonPath": "/usr/local/bin/python3",
     "python.linting.flake8Enabled": true,
     "python.formatting.provider": "autopep8",
@@ -34,10 +32,11 @@
     "[javascript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "workbench.editorAssociations": [
-        {
-            "viewType": "jupyter.notebook.ipynb",
-            "filenamePattern": "*.ipynb"
-        }
-    ],
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "prettier.packageManager": "yarn",
+    "editor.formatOnSave": false,
+    "json.format.enable": false,
+    "workbench.colorTheme": "Night Owl Light",
 }
