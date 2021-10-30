@@ -153,6 +153,7 @@ module.exports = {
     "hyper-pane",
     "hyper-snazzy",
     "hypercwd",
+    "hyper-one-light"
   ],
 
   // in development, you can create a directory under
