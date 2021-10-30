@@ -51,7 +51,7 @@ mv composer.phar /usr/local/bin/composer
 $HOME/.composer/vendor/bin/valet install
 
 # Install global NPM packages
-yarn global add gatsby-cli
+#
 
 # Install python packages
 pip3 install flake8
