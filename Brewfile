@@ -38,12 +38,10 @@ brew 'python'
 brew 'pipenv'
 
 # Apps
-cask 'docker'
 cask 'firefox'
 cask 'google-chrome'
 cask 'insomnia'
 cask 'notion'
-cask 'phpstorm'
 cask 'slack'
 cask 'spotify'
 cask 'visual-studio-code'
