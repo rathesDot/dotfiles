@@ -5,6 +5,11 @@ echo "Setting up your Mac..."
 # hide "last login" line when starting a new terminal session
 touch $HOME/.hushlogin
 
+# Check for Oh My Zsh and install if we don't have it
+if test ! $(which omz); then
+  /bin/sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/HEAD/tools/install.sh)"
+fi
+
 # Check for Homebrew and install if we don't have it
 if test ! $(which brew); then
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -26,9 +31,6 @@ chsh -s $(which zsh)
 
 # Install PHP extensions with PECL
 pecl install imagick
-
-# Install Oh-My-Zsh
-sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
 
 # Install Powerline fonts
 git clone https://github.com/powerline/fonts.git --depth=1 $HOME/fonts
