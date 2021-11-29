@@ -7,3 +7,5 @@
 	excludesfile = ~/.gitignore
 [pull]
 	rebase = false
+[init]
+	defaultBranch = main
