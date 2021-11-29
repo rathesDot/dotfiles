@@ -52,9 +52,7 @@ cask 'figma'
 cask 'tableplus'
 
 # Fonts
-cask 'font-source-code-pro-for-powerline'
-cask 'font-source-code-pro'
-cask 'font-cascadia'
+cask 'font-cascadia-code'
 
 # Install Mac App Store apps
 mas 'Spark', id: 1176895641
