@@ -2,7 +2,6 @@ alexdima.copy-relative-path
 bierner.markdown-preview-github-styles
 bradlc.vscode-tailwindcss
 christian-kohler.npm-intellisense
-CoenraadS.bracket-pair-colorizer
 dbaeumer.vscode-eslint
 eamodio.gitlens
 EditorConfig.EditorConfig
