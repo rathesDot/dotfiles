@@ -35,5 +35,7 @@
   },
   "editor.formatOnSave": true,
   "json.format.enable": false,
-  "workbench.colorTheme": "Night Owl Light"
+  "workbench.colorTheme": "Night Owl Light",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active"
 }
