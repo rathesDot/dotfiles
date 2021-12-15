@@ -33,7 +33,6 @@
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "prettier.packageManager": "yarn",
   "editor.formatOnSave": true,
   "json.format.enable": false,
   "workbench.colorTheme": "Night Owl Light"
