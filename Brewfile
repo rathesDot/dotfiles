@@ -51,6 +51,7 @@ cask 'hyper'
 cask 'figma'
 cask 'tableplus'
 cask 'rectangle'
+cask 'raycast'
 
 # Fonts
 cask 'font-cascadia-code'
