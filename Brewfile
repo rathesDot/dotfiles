@@ -50,6 +50,7 @@ cask 'microsoft-edge'
 cask 'hyper'
 cask 'figma'
 cask 'tableplus'
+cask 'rectangle'
 
 # Fonts
 cask 'font-cascadia-code'
