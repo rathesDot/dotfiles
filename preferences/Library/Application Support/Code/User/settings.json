@@ -1,41 +1,48 @@
 {
-  "window.zoomLevel": 1,
-  "editor.rulers": [120],
-  "explorer.openEditors.visible": 0,
-  "editor.minimap.enabled": false,
-  "terminal.integrated.fontFamily": "Meslo LG M for Powerline, Menlo, Monaco, 'Courier New', monospace",
-  "files.trimTrailingWhitespace": true,
-  "extensions.ignoreRecommendations": true,
-  "workbench.panel.defaultLocation": "right",
-  "explorer.confirmDelete": false,
-  "editor.formatOnPaste": true,
-  "editor.formatOnType": true,
-  "python.pythonPath": "/usr/local/bin/python3",
-  "python.linting.flake8Enabled": true,
-  "python.formatting.provider": "autopep8",
-  "python.linting.pylintEnabled": false,
-  "breadcrumbs.enabled": false,
-  "editor.fontFamily": "Cascadia Code, Menlo, Monaco, 'Courier New', monospace",
-  "editor.lineHeight": 24,
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "[typescript]": {
+  "json.format.enable": false,
+  "editor.minimap.enabled": false,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "python.formatting.provider": "autopep8",
+  "explorer.openEditors.visible": 0,
+  "editor.formatOnSave": true,
+  "python.pythonPath": "/usr/local/bin/python3",
+  "explorer.confirmDelete": false,
+  "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "javascript.updateImportsOnFileMove.enabled": "always",
   "editor.fontLigatures": true,
+  "workbench.colorTheme": "Night Owl Light",
+  "files.trimTrailingWhitespace": true,
+  "editor.fontFamily": "Cascadia Code, Menlo, Monaco, 'Courier New', monospace",
   "typescript.updateImportsOnFileMove.enabled": "always",
-  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.lineHeight": 24,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.formatOnType": true,
+  "terminal.integrated.fontFamily": "Meslo LG M for Powerline, Menlo, Monaco, 'Courier New', monospace",
+  "editor.guides.bracketPairs": "active",
+  "breadcrumbs.enabled": false,
+  "extensions.ignoreRecommendations": true,
+  "workbench.panel.defaultLocation": "right",
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "[json]": {
+  "editor.formatOnPaste": true,
+  "editor.rulers": [120],
+  "python.linting.pylintEnabled": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "window.zoomLevel": 1,
+  "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "editor.formatOnSave": true,
-  "json.format.enable": false,
-  "workbench.colorTheme": "Night Owl Light",
-  "editor.bracketPairColorization.enabled": true,
-  "editor.guides.bracketPairs": "active"
+  "editor.accessibilitySupport": "off",
+  "python.linting.flake8Enabled": true,
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1"
+  }
 }
