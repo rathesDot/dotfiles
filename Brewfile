@@ -40,7 +40,6 @@ brew 'pipenv'
 
 # Apps
 cask 'firefox'
-cask 'google-chrome'
 cask 'insomnia'
 cask 'notion'
 cask 'slack'
