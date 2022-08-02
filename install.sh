@@ -28,13 +28,6 @@ chsh -s $(which zsh)
 # Install PHP extensions with PECL
 pecl install imagick
 
-# Install Powerline fonts
-git clone https://github.com/powerline/fonts.git --depth=1 $HOME/fonts
-cd $HOME/fonts
-./install.sh
-rm -rf $HOME/fonts
-cd $HOME/.dotfiles
-
 # copy global gitignore files
 cp .gitignore $HOME/.gitignore
 
