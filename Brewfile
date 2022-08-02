@@ -38,6 +38,8 @@ brew 'mysql'
 
 brew 'python'
 brew 'pipenv'
+brew 'flake8'
+brew 'yapf'
 
 # Apps
 cask 'firefox'
