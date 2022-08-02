@@ -22,10 +22,6 @@ brew update
 brew tap homebrew/bundle
 brew bundle
 
-# Install Pure
-mkdir -p "$HOME/.zsh"
-git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
-
 # Make ZSH the default shell environment
 chsh -s $(which zsh)
 
