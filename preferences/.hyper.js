@@ -13,19 +13,19 @@ module.exports = {
 
     // font family with optional fallbacks
     fontFamily:
-      'Menlo, "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',
+      'Fira Code, Menlo, "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',
 
     // default font weight: 'normal' or 'bold'
     fontWeight: "normal",
 
     // font weight for bold characters: 'normal' or 'bold'
-    fontWeightBold: "bold",
+    fontWeightBold: "semibold",
 
     // line height as a relative unit
-    lineHeight: 1.35,
+    lineHeight: 1.5,
 
     // letter spacing as a relative unit
-    letterSpacing: 0,
+    letterSpacing: 1.2,
 
     // terminal cursor background color and opacity (hex, rgb, hsl, hsv, hwb or cmyk)
     cursorColor: "rgba(248,28,229,0.8)",
@@ -68,7 +68,7 @@ module.exports = {
     showWindowControls: "",
 
     // custom padding (CSS format, i.e.: `top right bottom left`)
-    padding: "12px 14px",
+    padding: "12px 24px",
 
     // the full list. if you're going to provide the full color palette,
     // including the 6 x 6 color cubes and the grayscale map, just provide
@@ -147,14 +147,7 @@ module.exports = {
   //   `hyperpower`
   //   `@company/project`
   //   `project#1.0.1`
-  plugins: [
-    "hyper-font-ligatures",
-    "hyper-search",
-    "hyper-pane",
-    "hyper-snazzy",
-    "hypercwd",
-    "hyper-one-light"
-  ],
+  plugins: ["hyper-search", "hyper-pane", "hypercwd", "hyper-github-light"],
 
   // in development, you can create a directory under
   // `~/.hyper_plugins/local/` and include it here
