@@ -16,3 +16,6 @@ alias h="cd $HOME/Herd"
 alias a="herd php artisan"
 alias composer="herd composer"
 alias php="herd php"
+
+# Git
+alias wip="git add . && git commit -m '🚧 WIP'"
