@@ -17,7 +17,7 @@
   },
   "javascript.updateImportsOnFileMove.enabled": "always",
   "editor.fontLigatures": true,
-  "workbench.colorTheme": "Night Owl Light",
+  "workbench.colorTheme": "GitHub Light Default",
   "files.trimTrailingWhitespace": true,
   "editor.fontFamily": "Cascadia Code, Menlo, Monaco, 'Courier New', monospace",
   "typescript.updateImportsOnFileMove.enabled": "always",
@@ -36,7 +36,6 @@
   "editor.rulers": [120],
   "python.linting.pylintEnabled": false,
   "diffEditor.ignoreTrimWhitespace": false,
-  "window.zoomLevel": 1,
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -44,5 +43,7 @@
   "python.linting.flake8Enabled": true,
   "terminal.integrated.env.osx": {
     "FIG_NEW_SESSION": "1"
-  }
+  },
+  "gitlens.views.commits.showBranchComparison": false,
+  "window.zoomLevel": 1
 }
