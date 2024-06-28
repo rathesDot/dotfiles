@@ -12,8 +12,10 @@ alias library="cd $HOME/Library"
 alias s="cd $HOME/Sites"
 alias h="cd $HOME/Herd"
 
-# Laravel
-alias a="php artisan"
+# Laravel + Herd
+alias a="herd php artisan"
+alias composer="herd composer"
+alias php="herd php"
 
 # Python
 alias python='python3'
