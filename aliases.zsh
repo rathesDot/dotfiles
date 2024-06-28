@@ -10,6 +10,7 @@ alias shrug="echo '¯\_(ツ)_/¯' | pbcopy"
 alias dotfiles="cd $DOTFILES"
 alias library="cd $HOME/Library"
 alias s="cd $HOME/Sites"
+alias h="cd $HOME/Herd"
 
 # Laravel
 alias a="php artisan"

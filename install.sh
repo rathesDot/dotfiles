@@ -38,9 +38,9 @@ cp .gitignore $HOME/.gitignore
 # Install global Composer packages
 $(which composer) global require laravel/installer
 
-# Create a Herd/Work directories
+# Create a Herd/Sites directories
 mkdir $HOME/Herd
-mkdir $HOME/Work
+mkdir $HOME/Sites
 
 # Symlink the Mackup config file to the home directory
 ln -s ./.dotfiles/mackup.cfg $HOME/.mackup.cfg
