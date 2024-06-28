@@ -1,5 +1,4 @@
 # Taps
-tap 'homebrew/cask'
 tap 'homebrew/cask-fonts'
 tap 'homebrew/cask-versions'
 tap 'homebrew/bundle'
@@ -8,19 +7,11 @@ tap 'homebrew/bundle'
 brew 'zsh'
 brew 'zsh-completions'
 
-# Install GNU core utilities (those that come with macOS are outdated)
-brew 'coreutils'
-
-# Install GNU `find`, `locate`, `updatedb`, and `xargs`, g-prefixed
-brew 'findutils'
-
-# Install Bash
-brew 'bash'
-
-# Install more recent versions of some macOS tools
-brew 'grep'
-
 # Install Binaries
+brew 'bash'
+brew 'coreutils'
+brew 'findutils'
+brew 'grep'
 brew 'git'
 brew 'node'
 brew 'watchman'
@@ -29,12 +20,12 @@ brew 'pure'
 brew 'mas'
 brew 'mackup'
 brew 'nvm'
-brew 'yarn'
 brew 'svn'
 
 # Development
 brew 'php'
 brew 'mysql'
+brew 'imagemagick'
 
 brew 'python'
 brew 'pipenv'
@@ -43,20 +34,23 @@ brew 'yapf'
 
 # Apps
 cask 'firefox'
-cask 'insomnia'
+cask 'figma'
+cask 'herd'
+cask 'httpie'
+cask 'hyper'
+cask 'microsoft-edge'
 cask 'notion'
+cask 'screen-studio'
 cask 'slack'
 cask 'spotify'
-cask 'visual-studio-code'
-cask 'microsoft-edge'
-cask 'hyper'
-cask 'figma'
 cask 'tableplus'
-cask 'rectangle'
+cask 'tuple'
 cask 'raycast'
+cask 'visual-studio-code'
 
 # Fonts
 cask 'font-cascadia-code'
+cask 'font-fira-code'
 
 # Install Mac App Store apps
 mas 'Spark', id: 1176895641

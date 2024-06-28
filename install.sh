@@ -13,43 +13,34 @@ fi
 # Check for Homebrew and install if we don't have it
 if test ! $(which brew); then
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-  
+
   echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> $HOME/.zprofile
   eval "$(/opt/homebrew/bin/brew shellenv)"
 fi
+
+# Removes .zshrc from $HOME (if it exists) and symlinks the .zshrc file from the .dotfiles
+rm -rf $HOME/.zshrc
+ln -sw $HOME/.dotfiles/.zshrc $HOME/.zshrc
 
 # Update Homebrew recipes
 brew update
 
 # Install all our dependencies with bundle (See Brewfile)
 brew tap homebrew/bundle
-brew bundle
+brew bundle --file ./Brewfile
 
 # Make ZSH the default shell environment
 chsh -s $(which zsh)
 
-# Install PHP extensions with PECL
-pecl install imagick
-
 # copy global gitignore files
 cp .gitignore $HOME/.gitignore
 
-# Install Composer
-curl -sS https://getcomposer.org/installer | php
-mv composer.phar /usr/local/bin/composer
-
 # Install global Composer packages
-/usr/local/bin/composer global require laravel/installer laravel/valet
+$(which composer) global require laravel/installer
 
-# Install Laravel Valet
-$HOME/.composer/vendor/bin/valet install
-
-# Install global NPM packages
-#
-
-# Create a Sites directory
-# This is a default directory for macOS user accounts but doesn't comes pre-installed
-mkdir $HOME/Sites
+# Create a Herd/Work directories
+mkdir $HOME/Herd
+mkdir $HOME/Work
 
 # Symlink the Mackup config file to the home directory
 ln -s ./.dotfiles/mackup.cfg $HOME/.mackup.cfg
