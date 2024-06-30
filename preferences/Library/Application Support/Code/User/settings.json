@@ -19,7 +19,7 @@
   "editor.fontLigatures": true,
   "workbench.colorTheme": "Night Owl Light",
   "files.trimTrailingWhitespace": true,
-  "editor.fontFamily": "Cascadia Code, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontFamily": "Fira Code, Cascadia Code, Menlo, Monaco, 'Courier New', monospace",
   "typescript.updateImportsOnFileMove.enabled": "always",
   "editor.lineHeight": 24,
   "editor.bracketPairColorization.enabled": true,
