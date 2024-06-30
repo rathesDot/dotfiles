@@ -17,7 +17,7 @@
   },
   "javascript.updateImportsOnFileMove.enabled": "always",
   "editor.fontLigatures": true,
-  "workbench.colorTheme": "Night Owl Light",
+  "workbench.colorTheme": "GitHub Light",
   "files.trimTrailingWhitespace": true,
   "editor.fontFamily": "Fira Code, Cascadia Code, Menlo, Monaco, 'Courier New', monospace",
   "typescript.updateImportsOnFileMove.enabled": "always",
