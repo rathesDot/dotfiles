@@ -52,7 +52,6 @@ cask 'microsoft-edge'
 cask 'hyper'
 cask 'figma'
 cask 'tableplus'
-cask 'rectangle'
 cask 'raycast'
 
 # Fonts
