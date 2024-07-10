@@ -26,7 +26,6 @@ brew 'pure'
 brew 'mas'
 brew 'mackup'
 brew 'nvm'
-brew 'yarn'
 brew 'svn'
 
 # Development
