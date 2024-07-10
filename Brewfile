@@ -52,6 +52,7 @@ cask 'visual-studio-code'
 
 # Fonts
 cask 'font-cascadia-code'
+cask 'font-fira-code'
 
 # Install Mac App Store apps
 mas 'Spark', id: 1176895641
