@@ -38,17 +38,17 @@ brew 'flake8'
 brew 'yapf'
 
 # Apps
+cask 'figma'
 cask 'firefox'
+cask 'hyper'
 cask 'insomnia'
+cask 'microsoft-edge'
 cask 'notion'
+cask 'raycast'
 cask 'slack'
 cask 'spotify'
-cask 'visual-studio-code'
-cask 'microsoft-edge'
-cask 'hyper'
-cask 'figma'
 cask 'tableplus'
-cask 'raycast'
+cask 'visual-studio-code'
 
 # Fonts
 cask 'font-cascadia-code'
