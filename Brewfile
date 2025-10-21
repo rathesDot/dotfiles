@@ -43,6 +43,7 @@ cask 'screen-studio'
 cask 'slack'
 cask 'spotify'
 cask 'tableplus'
+cask 'zoom'
 
 # Fonts
 cask 'font-cascadia-code'
