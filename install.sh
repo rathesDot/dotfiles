@@ -29,7 +29,7 @@ brew bundle
 chsh -s $(which zsh)
 
 # copy global gitignore files
-cp .gitignore $HOME/.gitignore
+cp .gitignore $HOME/.gitignore  
 
 # Install Laravel Valet
 $HOME/.composer/vendor/bin/valet install
@@ -46,7 +46,7 @@ ln -s ./.dotfiles/mackup.cfg $HOME/.mackup.cfg
 
 # Install vs code extensions
 cat vscode-extensions.txt | while read i; do
-   code --install-extension $i --force
+   cursor --install-extension $i --force
 done
 
 # Set macOS preferences
