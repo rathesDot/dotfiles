@@ -35,10 +35,9 @@ chsh -s $(which zsh)
 # copy global gitignore files
 cp .gitignore $HOME/.gitignore  
 
-
-# Create a Sites directory
-# This is a default directory for macOS user accounts but doesn't comes pre-installed
-mkdir $HOME/Sites
+# Create a Developer and Herd directories
+mkdir $HOME/Developer
+mkdir $HOME/Herd
 
 # Symlink the Mackup config file to the home directory
 ln -s ./.dotfiles/mackup.cfg $HOME/.mackup.cfg
