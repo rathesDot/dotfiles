@@ -34,6 +34,7 @@ brew 'flake8'
 brew 'yapf'
 
 # Apps
+cask 'cursor'
 cask 'figma'
 cask 'httpie'
 cask 'hyper'
@@ -43,7 +44,6 @@ cask 'raycast'
 cask 'slack'
 cask 'spotify'
 cask 'tableplus'
-cask 'visual-studio-code'
 
 # Fonts
 cask 'font-cascadia-code'
