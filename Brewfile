@@ -35,7 +35,6 @@ brew 'yapf'
 
 # Apps
 cask 'figma'
-cask 'firefox'
 cask 'httpie'
 cask 'hyper'
 cask 'microsoft-edge'
