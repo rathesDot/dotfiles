@@ -1,6 +1,3 @@
-# Taps
-tap 'homebrew/bundle'
-
 # Install ZSH
 brew 'zsh'
 brew 'zsh-completions'
