@@ -28,10 +28,6 @@ brew 'mackup'
 brew 'nvm'
 brew 'svn'
 
-# Development
-brew 'php'
-brew 'mysql'
-
 brew 'python'
 brew 'pipenv'
 brew 'flake8'
