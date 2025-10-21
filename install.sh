@@ -35,11 +35,6 @@ chsh -s $(which zsh)
 # copy global gitignore files
 cp .gitignore $HOME/.gitignore  
 
-# Install Laravel Valet
-$HOME/.composer/vendor/bin/valet install
-
-# Install global NPM packages
-#
 
 # Create a Sites directory
 # This is a default directory for macOS user accounts but doesn't comes pre-installed
