@@ -26,7 +26,6 @@ ln -sw $HOME/.dotfiles/.zshrc $HOME/.zshrc
 brew update
 
 # Install all our dependencies with bundle (See Brewfile)
-brew tap homebrew/bundle
 brew bundle
 
 # Make ZSH the default shell environment
